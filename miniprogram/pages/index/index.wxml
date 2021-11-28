@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="home-container">
+  <view class="home-handle-wrapper">
+  <view class="home-ipt-wrapper">
+    <input 
+    bindinput="onInput"
+    value="{{iptValue}}"
+    class="home-handle-ipt" placeholder="请粘贴视频地址"/>
+
+  </view>
+ 
+  <view 
+  class="home-handle-btn" bindtap="onConfim">去水印</view>
+  </view>
+  <view>支持各大平台去水印</view>
+</view>
